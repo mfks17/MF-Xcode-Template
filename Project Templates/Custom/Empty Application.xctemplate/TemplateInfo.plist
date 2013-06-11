@@ -2,6 +2,71 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>includetravisyml</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>.travis.yml</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>.travis.yml</key>
+							<dict>
+								<key>Path</key>
+								<string>.travis.yml</string>
+								<key>Group</key>
+								<array>
+									<string>-delete or reimport these groups-</string>
+									<string>travis</string>
+								</array>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>includePodfile</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>Podfile</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>Podfile</key>
+							<dict>
+								<key>Path</key>
+								<string>Podfile</string>
+								<key>Group</key>
+								<array>
+									<string>-delete or reimnport these groups-</string>
+									<string>cocoaPods</string>
+								</array>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.cocoaTouchApplication.MF</string>
