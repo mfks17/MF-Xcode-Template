@@ -283,6 +283,37 @@
 			<key>Default</key>
 			<string>true</string>
 			<key>Description</key>
+			<string>Whether a .gitignore should be created</string>
+			<key>Identifier</key>
+			<string>includegitignore</string>
+			<key>Name</key>
+			<string>include .gitignore</string>
+			<key>SortOrder</key>
+			<integer>2</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Components</key>
+						<array>
+							<dict>
+								<key>Identifier</key>
+								<string>gitignore</string>
+								<key>Name</key>
+								<string>.gitignore</string>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Description</key>
 			<string>Whether a .travis.yml should be created</string>
 			<key>Identifier</key>
 			<string>includetravisyml</string>
