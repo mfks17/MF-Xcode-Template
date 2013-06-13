@@ -6,6 +6,37 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
+			<string>includegitignore</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>.gitignore</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>.gitignore</key>
+							<dict>
+								<key>Path</key>
+								<string>.gitignore</string>
+								<key>Group</key>
+								<array>
+									<string>-delete or reimport these groups-</string>
+									<string>git</string>
+								</array>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
 			<string>includetravisyml</string>
 			<key>Units</key>
 			<dict>
@@ -55,7 +86,7 @@
 								<string>Podfile</string>
 								<key>Group</key>
 								<array>
-									<string>-delete or reimnport these groups-</string>
+									<string>-delete or reimport these groups-</string>
 									<string>cocoaPods</string>
 								</array>
 								<key>TargetIndices</key>
