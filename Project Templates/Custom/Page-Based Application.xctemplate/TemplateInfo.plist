@@ -258,6 +258,99 @@ self.view.gestureRecognizers = self.pageViewController.gestureRecognizers;</stri
 	<array>
 		<dict>
 			<key>Identifier</key>
+			<string>includegitignore</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>.gitignore</key>
+							<dict>
+								<key>TargetIndices</key>
+								<array/>
+								<key>Path</key>
+								<string>.gitignore</string>
+								<key>Group</key>
+								<array>
+									<string>-delete or reimport these groups-</string>
+									<string>gitignore</string>
+								</array>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>.gitignore</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>includetravisyml</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>.travis.yml</key>
+							<dict>
+								<key>TargetIndices</key>
+								<array/>
+								<key>Group</key>
+								<array>
+									<string>-delete or reimport these groups-</string>
+									<string>travis</string>
+								</array>
+								<key>Path</key>
+								<string>.travis.yml</string>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>.travis.yml</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>includePodfile</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Podfile</key>
+							<dict>
+								<key>TargetIndices</key>
+								<array/>
+								<key>Group</key>
+								<array>
+									<string>-delete or reimport these groups-</string>
+									<string>cocoaPods</string>
+								</array>
+								<key>Path</key>
+								<string>Podfile</string>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>Podfile</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
 			<string>universalDeviceFamily</string>
 			<key>Units</key>
 			<dict>
