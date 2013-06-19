@@ -13,11 +13,9 @@
 	<key>Definitions</key>
 	<dict>
 		<key>___PACKAGENAME___-Prefix.pch:debuglog</key>
-		<string>#ifndef __DEBUGCOM_H__
+		<string>
+#ifndef __DEBUGCOM_H__
 #define __DEBUGCOM_H__
-
-#include
-#include 
 
 #define __FILE_FNAME_ONLY__ (strrchr(__FILE__,&apos;/&apos;)+1)
 
