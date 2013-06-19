@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>org.mfks17.dt.unit.AddDebugLog</string>
+	<key>InjectionTargets</key>
+	<array>
+		<string>com.apple.dt.unit.singleViewApplication.MF</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___PACKAGENAME___-Prefix.pch:debuglog</key>
+		<string>#ifndef __DEBUGCOM_H__
+#define __DEBUGCOM_H__
+
+#include
+#include 
+
+#define __FILE_FNAME_ONLY__ (strrchr(__FILE__,&apos;/&apos;)+1)
+
+#ifdef DEBUG
+
+#define METHOD_S	NSLog(@&quot;%s(%d):%s [START]&quot;, __FILE_FNAME_ONLY__, __LINE__, __PRETTY_FUNCTION__)
+#define METHOD_E	NSLog(@&quot;%s(%d):%s [END]&quot;,__FILE_FNAME_ONLY__, __LINE__, __PRETTY_FUNCTION__)
+#define DLOG(fmt, ...)	NSLog([@&quot;%s(%d):%s &quot; stringByAppendingString:(fmt)], __FILE_FNAME_ONLY__,__LINE__, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+#define DERR(fmt, ...)	NSLog([@&quot;%s(%d):%s [ERROR]&quot; stringByAppendingString:(fmt)], __FILE_FNAME_ONLY__,__LINE__, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+
+#else
+
+#define METHOD_S
+#define METHOD_E
+#define DLOG(fmt, ...)
+#define DERR(fmt, ...)	NSLog([@&quot;%s(%d):%s &lt;&gt; &quot; stringByAppendingString:(fmt)], __FILE_FNAME_ONLY__,__LINE__, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+
+#endif /* #ifdef DEBUG */
+
+#endif /* #ifndef __DEBUGCOM_H__ */</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>MFDebugLog</string>
+			<key>Name</key>
+			<string>Use &quot;NSLog Macro&quot;</string>
+			<key>Description</key>
+			<string>Whether use &quot;LOG()&quot; or not</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>SortOrder</key>
+			<integer>5</integer>
+			<key>Default</key>
+			<string>false</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___PACKAGENAME___-Prefix.pch:debuglog</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
