@@ -54,24 +54,33 @@
 			<key>End</key>
 			<string>@end</string>
 		</dict>
-		<key>Default-568h@2x.png</key>
+		<key>Resources/Splash/Default-568h@2x.png</key>
 		<dict>
 			<key>Group</key>
-			<string>Supporting Files</string>
+			<array>
+				<string>Resources</string>
+				<string>Splash</string>
+			</array>
 			<key>Path</key>
 			<string>Default-568h@2x.png</string>
 		</dict>
-		<key>Default.png</key>
+		<key>Resources/Splash/Default.png</key>
 		<dict>
 			<key>Group</key>
-			<string>Supporting Files</string>
+			<array>
+				<string>Resources</string>
+				<string>Splash</string>
+			</array>
 			<key>Path</key>
 			<string>Default.png</string>
 		</dict>
-		<key>Default@2x.png</key>
+		<key>Resources/Splash/Default@2x.png</key>
 		<dict>
 			<key>Group</key>
-			<string>Supporting Files</string>
+			<array>
+				<string>Resources</string>
+				<string>Splash</string>
+			</array>
 			<key>Path</key>
 			<string>Default@2x.png</string>
 		</dict>
@@ -273,9 +282,9 @@
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillEnterForeground:comments</string>
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationDidBecomeActive:comments</string>
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillTerminate:comments</string>
-		<string>Default.png</string>
-		<string>Default@2x.png</string>
-		<string>Default-568h@2x.png</string>
+		<string>Resources/Splash/Default.png</string>
+		<string>Resources/Splash/Default@2x.png</string>
+		<string>Resources/Splash/Default-568h@2x.png</string>
 	</array>
 	<key>Options</key>
 	<array>
