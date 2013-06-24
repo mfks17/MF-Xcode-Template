@@ -10,6 +10,38 @@
 	<true/>
 	<key>Definitions</key>
 	<dict>
+		<key>Classes/Model/dummy</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Model</string>
+			</array>
+		</dict>
+		<key>Classes/View/dummy</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>View</string>
+			</array>
+		</dict>
+		<key>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Controller</string>
+			</array>
+		</dict>
+		<key>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Controller</string>
+			</array>
+		</dict>
 		<key>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationdidFinishLaunchingWithOptions</key>
 		<dict>
 			<key>Beginning</key>
@@ -37,12 +69,14 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
-		<string>___VARIABLE_classPrefix:identifier___ViewController.h:viewControllerInterface</string>
-		<string>___VARIABLE_classPrefix:identifier___ViewController.m:comments</string>
-		<string>___VARIABLE_classPrefix:identifier___ViewController.m:import:___VARIABLE_classPrefix:identifier___ViewController.h</string>
-		<string>___VARIABLE_classPrefix:identifier___ViewController.m:private</string>
-		<string>___VARIABLE_classPrefix:identifier___ViewController.m:implementation:viewDidLoad</string>
-		<string>___VARIABLE_classPrefix:identifier___ViewController.m:implementation:didReceiveMemoryWarning</string>
+		<string>Classes/Model/dummy</string>
+		<string>Classes/View/dummy</string>
+		<string>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.h:viewControllerInterface</string>
+		<string>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.m:comments</string>
+		<string>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.m:import:___VARIABLE_classPrefix:identifier___ViewController.h</string>
+		<string>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.m:private</string>
+		<string>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.m:implementation:viewDidLoad</string>
+		<string>Classes/Controller/___VARIABLE_classPrefix:identifier___ViewController.m:implementation:didReceiveMemoryWarning</string>
 	</array>
 	<key>Options</key>
 	<array>
