@@ -9,6 +9,7 @@
 	<key>InjectionTargets</key>
 	<array>
 		<string>com.apple.dt.unit.singleViewApplication.MF</string>
+		<string>com.apple.dt.unit.emptyApplication.MF</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
