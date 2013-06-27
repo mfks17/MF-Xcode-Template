@@ -8,6 +8,7 @@
 	<string>org.mfks17.dt.unit.AddDebugLog</string>
 	<key>InjectionTargets</key>
 	<array>
+		<string>com.apple.dt.unit.openGLGame.MF</string>
 		<string>com.apple.dt.unit.masterDetailApplication.MF</string>
 		<string>com.apple.dt.unit.tabbedApplication.MF</string>
 		<string>com.apple.dt.unit.singleViewApplication.MF</string>
