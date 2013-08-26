@@ -174,7 +174,7 @@
 					<dict>
 						<key>Definitions</key>
 						<dict>
-							<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:ivars</key>
+							<key>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.h:ivars</key>
 							<dict>
 								<key>Beginning</key>
 								<string>@interface ___VARIABLE_classPrefix:identifier___AppDelegate : UIResponder &lt;UIApplicationDelegate, UITabBarControllerDelegate&gt;
@@ -182,16 +182,16 @@
 								<key>Indent</key>
 								<integer>1</integer>
 							</dict>
-							<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:tabBarController</key>
+							<key>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:tabBarController</key>
 							<string>@property (strong, nonatomic) UITabBarController *tabBarController;
 </string>
-							<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationdidFinishLaunchingWithOptions:setup</key>
+							<key>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationdidFinishLaunchingWithOptions:setup</key>
 							<string>UIViewController *viewController1 = ___RP___[[___VARIABLE_classPrefix:identifier___FirstViewController alloc] initWithNibName:@&quot;___VARIABLE_classPrefix:identifier___FirstViewController&quot; bundle:nil]___AR___;
 UIViewController *viewController2 = ___RP___[[___VARIABLE_classPrefix:identifier___SecondViewController alloc] initWithNibName:@&quot;___VARIABLE_classPrefix:identifier___SecondViewController&quot; bundle:nil]___AR___;
 self.tabBarController = ___RP___[[UITabBarController alloc] init]___AR___;
 self.tabBarController.viewControllers = @[viewController1, viewController2];
 self.window.rootViewController = self.tabBarController;</string>
-							<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:tabBarMethods</key>
+							<key>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.m:tabBarMethods</key>
 							<string>/*
 // Optional UITabBarControllerDelegate method.
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
@@ -215,11 +215,11 @@ self.tabBarItem.image = [UIImage imageNamed:@&quot;second&quot;];</string>
 						</dict>
 						<key>Nodes</key>
 						<array>
-							<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:tabBarController</string>
-							<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:import:___VARIABLE_classPrefix:identifier___FirstViewController.h</string>
-							<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:import:___VARIABLE_classPrefix:identifier___SecondViewController.h</string>
-							<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:implementation:dealloc:_tabBarController</string>
-							<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:tabBarMethods</string>
+							<string>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:tabBarController</string>
+							<string>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.m:import:___VARIABLE_classPrefix:identifier___FirstViewController.h</string>
+							<string>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.m:import:___VARIABLE_classPrefix:identifier___SecondViewController.h</string>
+							<string>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.m:implementation:dealloc:_tabBarController</string>
+							<string>Classes/___VARIABLE_classPrefix:identifier___AppDelegate.m:tabBarMethods</string>
 							<string>___VARIABLE_classPrefix:identifier___FirstViewController.m:implementation:initSection:initViewController:setup</string>
 							<string>___VARIABLE_classPrefix:identifier___SecondViewController.m:implementation:initSection:initViewController:setup</string>
 						</array>
